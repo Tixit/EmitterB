@@ -1,4 +1,4 @@
-{"name":"EventEmitterB",
+{"name":"emitter-b",
  "description": "An enhanced EventEmitter with extra methods for detecting whether an event has any handlers or not for efficient event handler attachment.",
  "keywords": [
    "event-emitter",
@@ -27,7 +27,7 @@
    "addListener"
  ],
  "version":"1.0.0",
- "main": "src/EventEmitterB.js",
+ "main": "src/EmitterB.js",
  "contributors": [
     "Billy Tetrud <bitetrudpublic@gmail.com> (https://github.com/fresheneesz/)"
  ],

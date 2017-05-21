@@ -5,22 +5,22 @@ Install
 =======
 
 ```
-npm install EventEmitterB
+npm install emitter-b
 ```
 
-or download the built package `EventEmitterB.umd.js` from the 'dist' folder in the repository
+or download the built package `EmitterB.umd.js` from the 'dist' folder in the repository
 
 Usage
 =====
 
 ```javascript
-var EventEmitterB = require('EventEmitterB')  // node.js and webpack
+var EmitterB = require('emitter-b')  // node.js and webpack
 
-define(['EventEmitterB.umd.js'], function(EventEmitterB) { ... } // amd
+define(['EmitterB.umd.js'], function(EmitterB) { ... } // amd
 
-<script src="EventEmitterB.umd.js">&lt;/script>
+<script src="EmitterB.umd.js">&lt;/script>
 <script>
-  EventEmitterB; // global 'EventEmitterB' module object
+  EmitterB; // global 'EmitterB' module object
 </script>
 
 ```
@@ -48,8 +48,8 @@ The `ifon` and related methods are useful primarily for performance reasons. The
 An example:
 
 ```javascript
-var child = EventEmitterB()
-var parent = EventEmitterB()
+var child = EmitterB()
+var parent = EmitterB()
 
 var handler;
 parent.ifon('someoneClickedTheThing', function() {
